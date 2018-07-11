@@ -1,0 +1,31 @@
+.userCard {
+  list-style: none;
+  display: block;
+  margin: 25px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.userCard > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.userCard > .img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.userCard > .infoWrapper {
+  padding-left: 15px;
+}
+
+.userCard > .infoWrapper > p {
+  margin: 0;
+}
+
+.userCard > .infoWrapper > p.name {
+  font-weight: bold;
+  text-transform: capitalize;
+}
